@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "baseUrl": "https://html-project-gustavo-lohan.vercel.app/#",
+      "baseUrl": "https://html-project-gustavo-lohan.vercel.app",
        "target": "ES6",
        "types": ["cypress", "node"]
     },
