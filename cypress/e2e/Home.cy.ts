@@ -15,4 +15,12 @@ describe('Validar aplicação html: imagens, vídeo, texto, etc... ', () => {
     validate.images()
 
   })
+
+  it('Validação da tela home: Texts', () =>{
+    validate.texts()
+  })
+
+  it('Validação da tela home: Titles and Subtitles', () =>{
+    validate.titles_subtitles()
+  })
 })
