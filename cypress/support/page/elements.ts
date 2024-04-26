@@ -32,5 +32,12 @@ const TEXTS = {
 
 }
 
+const LINKS = {
+    Dan_Morrill: '[data-cy="article_p2"] > .externo',
+    Inkscape: '[data-cy="article_p2"] > .externo',
+    Irina_Blok: '[data-cy="article_p4"] > .externo',
+    Android_History: '[data-cy="aside_p3"] > .externo'
+}
 
-export { MENU, IMAGES, TEXTS, TITLES_SUBTITLES}
+
+export { MENU, IMAGES, TEXTS, TITLES_SUBTITLES, LINKS}

@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import{ IMAGES, MENU, TEXTS, TITLES_SUBTITLES } from "./elements";
+import{ IMAGES, MENU, TEXTS, TITLES_SUBTITLES, LINKS } from "./elements";
 
 class validate {
 
@@ -34,6 +34,15 @@ class validate {
         cy.get(TITLES_SUBTITLES.aside_subtitle).should('have.text', Cypress.env('Titles_Subtitles').list_subtitle)
     }
 
-}
+    links(){
+        cy.get(LINKS.Dan_Morrill).contains('Dan Morrill').should('have.attr', 'href', 'https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/')
+        cy.get(LINKS.Inkscape).contains('Inkscape').should('have.attr', 'href', 'https://inkscape.org/pt-br/')
+        cy.get(LINKS.Irina_Blok).contains('Irina Blok').should('have.attr', 'href', 'https://www.irinablok.com')
+        cy.get(LINKS.Android_History).contains('Android History').should('have.attr', 'href', 'https://www.android.com/intl/en_uk/history/')
+    }
+
+    
+    }
+
 
 export default new validate()
