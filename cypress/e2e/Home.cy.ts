@@ -3,7 +3,7 @@
 import validate from '../support/page/home'
 describe('Validar aplicação html: imagens, vídeo, texto, etc... ', () => {
   beforeEach(() => {
-     
+      
     cy.visit('/')
   }),
 
