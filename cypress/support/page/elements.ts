@@ -4,7 +4,7 @@ const MENU = {
     Curiosities: '[data-cy="nav_a"] > :nth-child(3)',
     Contact_us: '[data-cy="nav_a"] > :nth-child(4)'
 
-}
+} 
 
 const IMAGES = {
     Dandrois: '[data-cy="article_picture1"] > img',
@@ -28,7 +28,8 @@ const TEXTS = {
     The_first_version_pt2: '[data-cy="article_p3"]',
     A_new_mascot_appears_pt1: '[data-cy="article_p4"]',
     A_new_mascot_appears_pt2: '[data-cy="article_p5"]',
-    A_new_mascot_appears_pt3: '[data-cy="article_p6"]'
+    A_new_mascot_appears_pt3: '[data-cy="article_p6"]',
+    AndroidQ: '[data-cy="aside_p2"] > strong'
 
 }
 
